@@ -10,10 +10,11 @@ This is not really an attempt to make a faster and more minimal version of React
 > **Warning** <br>
 > **This _small_ and _very unstable_ version is not recommended, but you can use it to create small websites.**
 
+
 ## 🖲️ Installation and Usage
 1. Clone this repository 
 ```git clone https://github.com/spelsinx/atomic```.
-2. Download all dependencies ```npm install``` as well ```npm install -g @babel/core @babel/cli webpack```.
+2. Download all dependencies ```npm install``` as well ```npm install -g @babel/core @babel/cli @babel/env @babel/preset-react babel-loader webpack```.
 3. Modify the src if you wish, and build src using ```npm run build``` and actually run the bundle (build dir.) using ```npm run start``` of course your site will be running locally and you can see it at the address in your browser: ```localhost:3000```.
 
 ## 📁 Documentation (COMMING SOON)
