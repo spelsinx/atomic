@@ -11,7 +11,8 @@ use the default is React.createElement and we want to use
 our own createElement function*/
 /** @jsx atomic.DOM */
 
-atomic.render(<h1>Hello</h1>, document.body)
+let container = document.getElementById("app")
+atomic.render(<h1>Hello</h1>, container)
 </script>
 <title>Tests page</title>
 </head>
