@@ -14,7 +14,7 @@ This is not really an attempt to make a faster and more minimal version of React
 1. Create a file with .html extension 
 Connect the web version via a link or a file by adding a link to the script: 
 1. **First** of the _options_, add **```<script src="https://unpkg.com/atomic-web@1.0.0/atomic.umd.js"></script>```** to your file with .html extension, or, **second** option of _options_ download and add the **[atomic.umd.js](https://github.com/spelsinx/atomic/blob/web-version/src/browser/atomic.umd.js)** file to your folder and then add **```<script src="atomic.umd.js"></script>```** to your file with .html extension.
-4. And also, the last steps to launch your first site and see the result, add the first script to the page with atomic following: add this on body or header ```<script type="text/atomic" data-presets="react">``` and write down your code inside, for example: 
+4. And also, the last steps to launch your first site and see the result, add the first script to the page with atomic, that is following: add this on body or header ```<script type="text/atomic" data-presets="react">``` and write down your code inside, for example: 
 ```js
 /** @jsx atomic.createElement */
 /** In the comment above we are telling babel which function it should
