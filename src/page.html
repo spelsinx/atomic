@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://unpkg.com/atomic-web@1.0.0/atomic.umd.js"></script>  
+<script type="text/atomic" data-presets="react">
+/** @jsx atomic.createElement */
+/** In the comment above we are telling babel which function it should
+use the default is React.createElement and we want to use
+our own createElement function*/
+/** @jsx atomic.DOM */
+
+atomic.render(<h1>Hello</h1>, document.body)
+</script>
+<title>Tests page</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <div id="app"></div>
+</body>
+</html>
