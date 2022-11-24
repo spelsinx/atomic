@@ -6,7 +6,7 @@
 
 
 ## ℹ️ About and warning
-This is not really an attempt to make a faster and more minimal version of React, but rather to try and understand how React, virtual home and JSX work.
+This is not really an attempt to make a faster and more minimal version of React, but rather to try and understand how React, virtual dom and JSX work.
 > **Warning** <br>
 > **This _small_ and _very unstable_ version is not recommended, but you can use it to create small websites.**
 
