@@ -4,7 +4,7 @@ use the default is React.createElement and we want to use
 our own createElement function*/
 
 // NEED TO IMPORT!!!
-import atomic from "./atomic.es.js";
+import atomic from "atomic-nodejs";
 
 let Welcome = <h1 align="center">Welcome!</h1>;
 
