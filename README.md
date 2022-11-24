@@ -13,7 +13,7 @@ This is not really an attempt to make a faster and more minimal version of React
 
 ## 🖲️ Installation and Usage
 1. Clone this repository 
-```git clone https://github.com/spelsinx/atomic```.
+```git clone https://github.com/spelsinx/atomic``` and go to the directory itself using ```cd atomic```.
 2. Download all dependencies ```npm install``` as well ```npm install -g @babel/core @babel/cli  webpack``` then ```npm i atomic-nodejs``` also ```npm i @babel/preset-env @babel/preset-react babel-loader```.
 3. Modify the src if you wish, and build src using ```npm run build``` and actually run the bundle (build dir.) using ```npm run start``` of course your site will be running locally and you can see it at the address in your browser: ```localhost:3000```.
 
