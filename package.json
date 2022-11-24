@@ -11,14 +11,14 @@
   "author": "spelsinx",
   "license": "MIT",
   "devDependencies": {
-    "atomic": "1.0.0",
+    "atomic-nodejs": "1.0.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "atomic": "1.0.0",
+    "atomic-nodejs": "1.0.0",
     "acorn-import-assertions": "1.8.0",
     "ajv-formats": "2.1.1",
     "acorn": "8.8.1",
